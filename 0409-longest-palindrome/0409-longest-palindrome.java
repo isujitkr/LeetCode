@@ -1,8 +1,5 @@
 class Solution {
     public int longestPalindrome(String s) {
-        if(s.length() == 1){
-            return 1;
-        }
         
         HashMap<Character, Integer> charCount = new HashMap<>();
 
